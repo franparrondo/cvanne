@@ -1,0 +1,129 @@
+*{
+	margin:0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+}
+
+img{
+    width: 55%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:4px;
+
+}
+#todo{
+    display: flex;
+    flex-wrap: nowrap;    
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
+.contenedor1{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    width: 40%;
+    height: 800px;
+    justify-content:baseline;
+    align-content: center;
+    background-color:#f1eaf0;
+}
+
+.contenedor2 {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    width: 100%;
+    height: 800px;
+    justify-content:baseline;
+    align-content: center;
+    background-color:rgb(255, 255, 255);
+}
+/* ANNE */
+.anne{
+    padding: 8px;
+    margin: 18px;
+}
+.anne h1{
+    font-family: 'Bodoni Moda', serif;
+    font-size: 35px;
+    align-items:  center;
+}
+.anne ul{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    align-items:  center;
+}
+
+/* CONTACTO */
+.contacto{
+    padding: 8px;
+    margin: 18px;
+}
+.contacto h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    align-items:  center;
+}
+.contacto ul{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    align-items:  center;
+}
+
+
+/* ESTUDIOS */
+.estudios{
+    padding: 8px;
+    margin: 18px;   
+}
+.estudios h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.estudios ul{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.explabo{
+    padding: 8px;
+    margin: 18px;
+
+}
+.explabo h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.explabo ul{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+.blabla{
+    padding: 8px;
+    margin: 18px;
+
+}
+.blabla h3{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.blabla ul{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
