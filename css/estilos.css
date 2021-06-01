@@ -323,6 +323,107 @@ footer {
         justify-content: baseline;
         align-content: center; 
         }
+
+    .perfil{
+        width: 80%;
+        
+        align-items: center;
+    }
+
+    .perfil img{
+        width: 100%;
+        justify-content: center;
+       padding: 20px;
+       margin-left: 40px;
+    }
+    .general .contenedor1 .contenidoanne{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content:flex-end;
+        border-bottom:none;
+    }
+
+    .general .contenedor1 .contenidoanne .title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: auto;
+    }
+
+    .contenedor1 h1{
+        color:black;
+        font-family: 'Bodoni Moda', serif;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 1.2em; 
+    }
+
+    .general .contenedor1 .regular{
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 100;
+        font-size: 25px;
+        align-items:  center;
+        justify-content: center; 
+        line-height: 1.3em; 
+        
+    }
+    .general .contenedor1 .contacto{
+        width: 100%;
+        align-items: center;
+        background-color: #fff;   
+    }
+    .general .contenedor1 .contacto .title{
+    font-size: 18px;
+    padding: 4px;
+    justify-content: space-around;
+    }
+
+    .general .contenedor1 .contacto h3{
+        width: 97%;
+        color: black;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        
+        margin: auto;
+        padding-top: 2px;
+    }
+    .general .contenedor1 ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+  
+    }
+.general .contenedor1 ul li .icono {
+        width: 100px;
+        background: #fff;
+        color:black;
+        font-size: 30px;
+        
+    }
+
+.general .icono i, .general .contenedor1 .data ul li i {
+        position: absolute;
+       
+        transform: translate(-50%, -50%);
+    }
+.general .contenedor1 ul li .data{
+        font-weight:lighter;
+        font-size: 20px;
+        align-items: center;
+    }
+.general .icono i, .general .contenedor1 .data ul li i a{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-decoration: none;
+        color: black;
+    }
     
     .contenedor2 {
         display: flex;
@@ -334,4 +435,43 @@ footer {
         align-content: center;
         background-color: rgb(255, 255, 255);
         }
+        .general .contenedor2 .bold{
+            color:black;
+            font-family: 'Nunito', sans-serif;
+            font-weight: 600;
+            font-size: 24px;
+            background-color: #f1eaf0;
+            margin:auto;
+        }
+        
+        .general .contenedor2 .regular {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 100;
+            font-size: 20px;
+            list-style: none; 
+            margin-top: 5px;
+            
+        }
+        
+        .general .contenedor2 .semi-bold{
+            font-weight:bold;
+            font-size: 20px;
+            line-height: 1.5em;   
+        }
+        
+        .general .contenedor2 .premios ul li .regular{
+            
+            font-size: 20px;
+        } 
+
+        .general .contenedor2 .premios ul li .semi-bold{
+            font-size: 25px;
+        } 
+        .semi-bold{
+            font-family: 'Nunito', sans-serif;
+            font-weight: 100;
+            font-size: 26px;
+            list-style: none; 
+        }
 }
+
